@@ -20,7 +20,7 @@ export default function StreamViewer({ streamUrl }: StreamViewerProps) {
   }, [socket]);
 
   const startStream = () => {
-    const ws = new WebSocket(`wss://rtsp-backend.onrender.com/ws/stream/`);
+    const ws = new WebSocket(`ws://rtsp-backend.onrender.com/ws/stream/`);
     setSocket(ws);
 
     let lastTime = Date.now();
