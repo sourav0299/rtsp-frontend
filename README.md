@@ -18,3 +18,4 @@ Run Server
 ```bash
 npm run dev
 ```
+major changes will be in src/components/StreamViewer.tsx
